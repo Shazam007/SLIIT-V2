@@ -102,9 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9223073000386724144}
-  - component: {fileID: 9223073000386724145}
   - component: {fileID: 7354960811443367392}
-  - component: {fileID: 3448177265725664817}
   m_Layer: 0
   m_Name: trigger enter
   m_TagString: Untagged
@@ -127,24 +125,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9223073000386724145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9223073000386724147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Book Search System
-    sprite: {fileID: 0}
-    sentences:
-    - With this computer, You can search books and look for the availability of a
-      respective book.
 --- !u!135 &7354960811443367392
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -158,19 +138,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3448177265725664817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9223073000386724147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e68bcc7c3de1a469674c43668f33c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIpanel: {fileID: 0}
 --- !u!1001 &2850555082832637533
 PrefabInstance:
   m_ObjectHideFlags: 0
