@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 9223073000386724144}
   - component: {fileID: 9223073000386724145}
   - component: {fileID: 7354960811443367392}
-  - component: {fileID: 3878353958092126570}
+  - component: {fileID: 3448177265725664817}
   m_Layer: 0
   m_Name: trigger enter
   m_TagString: Untagged
@@ -140,13 +140,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: SLIIT Library Entrance
+    name: Book Search System
     sprite: {fileID: 0}
     sentences:
-    - Wellcome to the SLIIT Main Library virtual tour.
-    - SLIIT libraries are constantly updated to accommodate resource materials relating
-      to new developments in Information and Communication Technology and other subjects
-      relating to the core teaching areas.
+    - With this computer, You can search books and look for the availability of a
+      respective book.
 --- !u!135 &7354960811443367392
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -160,7 +158,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3878353958092126570
+--- !u!114 &3448177265725664817
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,10 +167,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9223073000386724147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d57af4baa3bf0074082b261f9010140b, type: 3}
+  m_Script: {fileID: 11500000, guid: b2e68bcc7c3de1a469674c43668f33c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diagogueTrigger: {fileID: 9223073000386724145}
+  UIpanel: {fileID: 0}
 --- !u!1001 &2850555082832637533
 PrefabInstance:
   m_ObjectHideFlags: 0
